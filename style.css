@@ -323,7 +323,9 @@ body {
   }
 
   .teks-item {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     flex-grow: 1;
     margin-right: 20px;
     margin-left: 20px;
