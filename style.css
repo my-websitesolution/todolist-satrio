@@ -324,7 +324,7 @@ body {
 
   .teks-item {
     display: flex;
-    flex-direction : Column;
+    flex-direction : column;
     justify-content : center;
     align-items: center;
     flex-grow: 1;
