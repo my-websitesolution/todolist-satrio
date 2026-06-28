@@ -223,6 +223,8 @@ body {
 @media (max-width: 768px) {
   .to-do-list {
     padding: 15px;
+    width: 100%;
+    max-width: 420px
   }
 
   #judultodolist {
@@ -308,7 +310,7 @@ body {
   .item {
     display: flex;
     align-items: center;
-
+    flex-wrap:wrap;
     padding: 14px;
     background-color: #f8fafc;
     margin-bottom: 10px;
