@@ -34,7 +34,7 @@ function tampilkan() {
         "<span id ='tekscentang'>" +
         rencana[i].nama +
         "</span>" +
-        "<span>" +
+        "<span class='tekstgl'>" +
         rencana[i].id +
         "</span>" +
         "</div>" +
@@ -216,7 +216,7 @@ function filterData(statusbaru) {
         "<span id ='tekscentang'>" +
         hasil[i].nama +
         "</span>" +
-        "<span>" +
+        "<span class='tekstgl'>" +
         hasil[i].id +
         "</span>" +
         "</div>" +
