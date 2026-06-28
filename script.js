@@ -31,7 +31,7 @@ function tampilkan() {
         i +
         ",0)'>" +
         "<div class ='teks-item'>" +
-        "<span id ='tekscentang'>" +
+        "<span class ='tekscentang'>" +
         rencana[i].nama +
         "</span>" +
         "<span class='tekstgl'>" +
@@ -213,7 +213,7 @@ function filterData(statusbaru) {
         indexsebenarnya +
         " ,1)'>" +
         "<div class ='teks-item'>" +
-        "<span id ='tekscentang'>" +
+        "<span class ='tekscentang'>" +
         hasil[i].nama +
         "</span>" +
         "<span class='tekstgl'>" +
