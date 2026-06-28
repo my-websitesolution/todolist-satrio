@@ -326,15 +326,17 @@ body {
   .teks-item {
     display: block;
     flex-grow: 1;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    min-width:0;
+    max-width:55%
   }
 
   .tekscentang {
     display:block;
     font-size: 13px;
-    word-break:break all;
-    overvlow-break:break-word;
+    word-break: break-all;
+    overflow-word: break-word;
     line-heigth:1.4;
   }
 
