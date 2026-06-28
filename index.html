@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satrio To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cloudflare.com" />
+  </head>
+  <body>
+    <section class="todolist">
+      <div class="to-do-list">
+        <h1 id="judultodolist">To Do List</h1>
+        <h4 class="subjudul">
+          Kelola daftar tugas dan mu dengan mudah dan efesien
+        </h4>
+        <div class="area-input">
+          <input
+            type="text"
+            id="tambahinput"
+            placeholder="Masukan rencana aktivitas baru"
+          />
+          <div class="inputdate">
+            <input type="date" id="datetime" onclick="datetime()" />
+          </div>
+          <button class="tambah" onclick="tambah()">Tambah</button>
+        </div>
+        <div class="search">
+          <input type="text" id="cari" placeholder="Cari rencana" />
+          <button class="cari" onclick="filterData()">Cari</button>
+        </div>
+        <div id="filter">
+          <button id="btn-kategori" onclick="filterData('semua')">Semua</button>
+          <button id="btn-kategori" onclick="filterData('belum')">
+            Belum Selesai
+          </button>
+          <button id="btn-kategori" onclick="filterData('sudah')">
+            Sudah Selesai
+          </button>
+        </div>
+
+        <p id="daftarrencana"></p>
+
+        <button id="hapussemua" onclick="hapussemua()">Hapus Semua</button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
