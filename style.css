@@ -136,7 +136,7 @@ body {
 
 .teks-item {
   display: flex;
-  justify-content: space-beetween;
+  justify-content: space-between;
   align-items: flex-start;
   flex-grow: 1;
   margin-right: 20px;
@@ -322,18 +322,14 @@ body {
   }
 
   .teks-item {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    display: block;
     flex-grow: 1;
     margin-right: 20px;
     margin-left: 20px;
-    min-width: 0;
-    word-break: break all;
   }
 
   .tekscentang {
+    display:block;
     font-size: 10px;
   }
 
@@ -354,7 +350,7 @@ body {
   #inputbarutgl {
     width: 100%;
     max-width: 20px;
-    transform: scale(1.4);
+    transform: scale(1.2);
     cursor: pointer;
   }
 
