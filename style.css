@@ -136,6 +136,7 @@ body {
 
 .teks-item {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   flex-grow: 1;
@@ -328,12 +329,12 @@ body {
     display: flex;
     flex-direction:column;
     align-items:flex-start;
+    justify-content:flex-start;
     flex-grow: 1;
     margin-right: 15px;
     margin-left: 15px;
     min-width:0;
-    width:100%;
-    max-width:180px
+    width: auto;
   }
 
   .tekscentang {
