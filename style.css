@@ -246,7 +246,7 @@ body {
 
   #datetime {
     width: 100%;
-    max-width: 20px;
+    max-width: 40px;
     transform: scale(1.4);
     cursor: pointer;
   }
