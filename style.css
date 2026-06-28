@@ -223,7 +223,7 @@ body {
 
 @media (max-width: 768px) {
   .to-do-list {
-    padding: 30px;
+    padding: 15px;
   }
 
   #judultodolist {
@@ -329,6 +329,8 @@ body {
     flex-grow: 1;
     margin-right: 20px;
     margin-left: 20px;
+    min-width: 0;
+    word-break: break all;
   }
 
   .tekscentang {
