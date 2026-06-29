@@ -147,6 +147,11 @@ body {
 
 .tekscentang {
   font-size: 15px;
+  display: block !important;
+
+  word-break: break-all;
+  overflow-wrap: break-word;
+  line-height: 1.4;
 }
 
 .tekstgl {
