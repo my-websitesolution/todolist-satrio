@@ -135,10 +135,10 @@ body {
 }
 
 .teks-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
   flex-grow: 1;
   margin-right: 20px;
   margin-left: 18px;
@@ -147,6 +147,13 @@ body {
 
 .tekscentang {
   font-size: 15px;
+}
+
+.tekstgl {
+  font-size: 15px;
+  display: block !important;
+  line-height: 1.4;
+  margin-top: 3px !important;
 }
 
 .klik {
@@ -166,7 +173,7 @@ body {
 #inputbarutgl {
   width: 100%;
   max-width: 20px;
-  transform: scale(1.2);
+  transform: scale(1.4);
   cursor: pointer;
 }
 
